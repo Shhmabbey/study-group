@@ -32,7 +32,7 @@ const obj_cheker = (obj1, obj2) => {
         // loop through array check if array check if obj
         for (let i = 0; i < obj1.length; i++) {
             if (!typeChecker(obj1[i], obj2[i])) return false;
-            
+            // It was here were we deduced that the function must be written recursively. -JWong
         }
 
     }
